@@ -1,5 +1,3 @@
-
-
 class bangunDatar {
     public double panjangsisi1;
     public double panjangsisi2;
