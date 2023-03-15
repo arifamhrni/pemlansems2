@@ -7,6 +7,9 @@ package tugas1;
 public class mainbook {
     public static void main(String[] args) {
         book t1 = new book();
+        System.out.println();
+        System.out.println("BUKU DENGAN KATEGORI TEKNOLOGI");
+        System.out.println();
         t1.setKategori("teknologi");
         t1.setJudul("Buku Dasar-Dasar Teknik Informatika");
         t1.setNamaPenulis("Novega Pratama Adiputra");
@@ -41,7 +44,9 @@ public class mainbook {
         t5.setJumlahHalaman(167);
         t5.setTahunTerbit(2018);
 
-
+        System.out.println();
+        System.out.println("BUKU DENGAN KATEGORI FILSAFAT");
+        System.out.println();
         book f1 = new book();
         f1.setKategori("filsafat,");
         f1.setJudul("Buku Ajar Filsafat Ilmu");
@@ -77,7 +82,9 @@ public class mainbook {
         f5.setJumlahHalaman(134);
         f5.setTahunTerbit(2009);
 
-
+        System.out.println();
+        System.out.println("BUKU DENGAN KATEGORI SEJARAH");
+        System.out.println();
         book s1 = new book();
         s1.setKategori("sejarah");
         s1.setJudul("Di Bawah Bendera Revolusi");
@@ -113,7 +120,9 @@ public class mainbook {
         s5.setJumlahHalaman(380);
         s5.setTahunTerbit(2017);
 
-
+        System.out.println();
+        System.out.println("BUKU DENGAN KATEGORI AGAMA");
+        System.out.println();
         book a1 = new book();
         a1.setKategori("agama");
         a1.setJudul("Nalar Tasawuf Sebagai Revolusi Pendidikan Islam");
@@ -144,12 +153,14 @@ public class mainbook {
 
         book a5 = new book();
         a5.setKategori("agama");
-        a5.setJudul("Bahagia Bersama Qur’an");
+        a5.setJudul("Bahagia Bersama Quran");
         a5.setNamaPenulis("Dasep Bayu Ahyar");
         a5.setJumlahHalaman(357);
         a5.setTahunTerbit(2019);
 
-
+        System.out.println();
+        System.out.println("BUKU DENGAN KATEGORI PSIKOLOGI");
+        System.out.println();
         book  p1 = new book();
         p1.setKategori("psikologi");
         p1.setJudul("Buku Bimbingan dan Konseling Belajar");
@@ -186,7 +197,9 @@ public class mainbook {
         p5.setJumlahHalaman(148);
         p5.setTahunTerbit(2020);
 
-
+        System.out.println();
+        System.out.println("BUKU DENGAN KATEGORI POLITIK");
+        System.out.println();
         book l1 = new book();
         l1.setKategori("politik");
         l1.setJudul("Politik Hukum di Indonesia");
@@ -222,7 +235,9 @@ public class mainbook {
         l5.setJumlahHalaman(142);
         l5.setTahunTerbit(2021);
 
-
+        System.out.println();
+        System.out.println("BUKU DENGAN KATEGORI FIKSI");
+        System.out.println();
         book k1 = new book();
         k1.setKategori("fiksi");
         k1.setJudul("Brianna dan Bottomwise");

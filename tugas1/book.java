@@ -9,6 +9,8 @@ public class book {
     private String judul;
     private int tahunterbit;
     private int jumlahhalaman;
+
+
     public void setKategori(String kategori){
         this.kategori = kategori;
     }
@@ -33,6 +35,4 @@ public class book {
         System.out.println("====================================");
         System.out.println();
     }
-	public void displayMesssage() {
-	}
 }
