@@ -16,7 +16,7 @@ public class mainbook {
         book t2 = new book();
         t2.setKategori("teknologi");
         t2.setJudul("Buku Pengantar Teknologi Informasi");
-        t2.setNamaPenulis("Buhoori Muslim");
+        t2.setNamaPenulis("Buhori Muslim");
         t2.setJumlahHalaman(329);
         t2.setTahunTerbit(2017);
 
