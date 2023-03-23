@@ -1,7 +1,7 @@
 public class Library {
     
     public static class Book {
-        public String title, publisher;
+        public String title, publisher, synopsis;
         public int year;
         public String[] authors;
 
