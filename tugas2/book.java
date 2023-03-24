@@ -54,10 +54,10 @@ public class book {
 
     public void tampilkan(){
         System.out.println("====================================");
-        System.out.println("1. kategori buku : " + getkategori());
-        System.out.println("2. Judul Buku : " + getjudul());
-        System.out.println("3. Penulis Buku : " + getpenulis());
-        System.out.println("4. Sinopsis : " + getsinopsis());
+        System.out.println("1. kategori buku                   = " + getkategori());
+        System.out.println("2. Judul Buku                      = " + getjudul());
+        System.out.println("3. Penulis Buku                    = " + getpenulis());
+        System.out.println("4. Sinopsis                        = " + getsinopsis());
         System.out.println("5. Menghitung jumlah kata sinopsis = " + gethitungangkasinopsis());
         System.out.println("====================================");
         System.out.println();

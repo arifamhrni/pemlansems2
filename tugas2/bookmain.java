@@ -86,6 +86,7 @@ public class bookmain {
         book book25 = new book("Buku Manusia Dalam Pandangan Psikologi", "psikologi", "Pasiska, M.A. Takdir Alisyahbana, M.Pd.I", "Buku ini menjelaskan tentang bagaimana manusia dalam pandangan ilmu psikologi");
         book25.tampilkan();
 
+
         System.out.println("Kategori Politik");
         book book26 = new book("Politik Hukum di Indonesia", "politik", "Prof. Dr. Moh. Mahfud MD", "Buku yang ditulis oleh Mahfud MD ini menjelaskan tentang bagaimana politik hukum di Indonesia");
         book26.tampilkan();
@@ -101,6 +102,7 @@ public class bookmain {
 
         book book30 = new book("Dramaturgi Politik Indonesia", "politik", "Muhammad Sulhan", "Buku ini menjelaskan tentang dramaturgi politik khususnya politik di Indonesia");
         book30.tampilkan();
+        
 
         System.out.println("Kategori Fiksi");
         book book31 = new book("Brianna dan Bottomwise", "fiksi", "Andrea Hirata", "Buku ini menceritakan tentang John Musiciante yang kehilangan gitarnya karena ulah kriminal amatir");
