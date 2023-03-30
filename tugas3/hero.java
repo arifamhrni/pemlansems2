@@ -5,20 +5,20 @@ package tugas3;
 //PemLan
 
 
-public class heroes {
+public class hero {
     private String nama;
     private double hp;
     private double atk;
 
-    public heroes(String nama, double hp, double atk) {
+    public hero(String nama, double hp, double atk) {
         this.nama = nama;
         this.hp = hp;
         this.atk = atk;
     }
 
-    public heroes (){}
+    public hero (){}
 
-
+    
     public void setNama (String nama){
         this.nama = nama;
     }
@@ -46,13 +46,13 @@ public class heroes {
     public void opening (){
         System.out.println("======================");
         System.out.println();
-        System.out.println("WELCOME TO HEROES GAME");
+        System.out.println("WELCOME TO HERO GAME");
         System.out.println();
         System.out.println("======================");
         System.out.println();
     }
 
-    public void infoHeroes(){
+    public void infohero(){
         System.out.println("Nama hero\t\t: " + this.nama);
         System.out.println("Attack hero\t\t: " + this.atk);
         System.out.println("Health point hero\t: " + this.hp);
