@@ -27,12 +27,12 @@ public class heromain {
         // Input hero 2 dengan constructor
         System.out.println();
         System.out.print("Masukkan nama hero 2: ");
-        String name2 = input.nextLine();
+        String namahero = input.nextLine();
         System.out.print("Masukkan hp hero 2: ");
-        double hp2 = input.nextDouble();
+        double hphero = input.nextDouble();
         System.out.print("Masukkan atk hero 2: ");
-        double atk2 = input.nextDouble();
-        hero hero2 = new hero(name2, hp2, atk2);
+        double atkhero = input.nextDouble();
+        hero hero2 = new hero(namahero, hphero, atkhero);
         input.nextLine();
 
         //menampilkan methode infohero
