@@ -44,11 +44,11 @@ public class heroes {
     }
     
     public void opening (){
-        System.out.println("========================");
+        System.out.println("=======================");
         System.out.println();
         System.out.println("WELCOME TO HEROES GAME");
         System.out.println();
-        System.out.println("========================");
+        System.out.println("=======================");
         System.out.println();
     }
 
