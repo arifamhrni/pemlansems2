@@ -37,7 +37,7 @@ public class heroesmain {
 
         //menampilkan methode infoHeroes
         System.out.println();
-        System.out.println("=======INFO HEROES=======");
+        System.out.println("========INFO HEROES========");
         heroes1.infoHeroes();
         heroes2.infoHeroes();
 
