@@ -15,7 +15,7 @@ public class hero {
         this.hp = hp;
         this.atk = atk;
     }
-
+    
     public hero (){}
 
     
