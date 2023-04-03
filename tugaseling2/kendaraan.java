@@ -128,7 +128,3 @@ class penumpang extends orang{
         System.out.println("Penumpang bernama " + this.nama +" turun angkot");
     }
 }
-
-
-
-
