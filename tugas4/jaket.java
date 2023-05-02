@@ -1,8 +1,8 @@
 package tugas4;
 
 public class jaket {
-    private String jenis;
-    private int jumlah;
+    private static String jenis;
+    private static int jumlah;
     private static final int HARGA_A = 100000;
     private static final int HARGA_B = 125000;
     private static final int HARGA_C = 175000;
@@ -12,15 +12,15 @@ public class jaket {
         this.jumlah = jumlah;
     }
 
-    public String getJenis() {
+    public static String getJenis() {
         return jenis;
     }
 
-    public void setJenis(String jenis) {
+    public  void setJenis(String jenis) {
         this.jenis = jenis;
     }
 
-    public int getJumlah() {
+    public static int getJumlah() {
         return jumlah;
     }
 
@@ -28,7 +28,7 @@ public class jaket {
         this.jumlah = jumlah;
     }
 
-    public int getHarga() {
+    public static int getHarga() {
         int harga = 0;
         switch (jenis) {
             case "A":
