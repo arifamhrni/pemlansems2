@@ -2,15 +2,13 @@ package tugaseling1;
 
 public class robot {
 
-   
-    
 }
 
 class lingkaran extends robot{
     private double jariJari;
     private double phi = Math.PI;
     
-    // Getter / aksesor attribut class lingkaran
+
     public lingkaran(double jariJari) {
         this.jariJari = jariJari;
     }
@@ -21,7 +19,7 @@ class lingkaran extends robot{
         return jariJari + jariJari;
     }
 
-    // method untuk menghitung luas objek lingkaran
+    
     public double hitungLuasLingkaran(){
         return phi * this.getJarijari() * this.getJarijari();
     }
@@ -35,10 +33,6 @@ class PersegiPanjang extends robot{
     public PersegiPanjang(double panjang, double lebar){
         this.panjang = panjang;
         this.lebar = lebar;
-    }
-
-    public double hitungLuas(){
-        return panjang * lebar;
     }
 
     public void setPanjang(double panjang) {
@@ -55,5 +49,9 @@ class PersegiPanjang extends robot{
 
     public double getLebar() {
         return this.lebar;
+    }
+
+    public double hitungLuas(){
+        return panjang * lebar;
     }
 }

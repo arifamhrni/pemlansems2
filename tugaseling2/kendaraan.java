@@ -8,13 +8,18 @@ class angkot extends mobil{
     private DriverAngkot driverAngkot;
     private Penumpang[] daftarPenumpang;
 
+    public angkot() {
+    }
+
     public angkot(DriverAngkot driverAngkot) {
         this.driverAngkot = driverAngkot;
+      }
+
+      public angkot(Penumpang[] daftarPenumpang){
         this.daftarPenumpang = new Penumpang[4]; 
       }
-      public angkot() {
-    }
-    public DriverAngkot getDriverAngkot() {
+      
+      public DriverAngkot getDriverAngkot() {
         return driverAngkot;
       }
       public Penumpang[] getPenumpang() {
@@ -23,7 +28,7 @@ class angkot extends mobil{
 
       public void getDaftarPenumpang() {
         for (Penumpang penumpang : getPenumpang()) {
-            System.out.println(penumpang.nama);
+            System.out.println("Nama penumpangnya adalah = " + penumpang);
         }
       
     }
@@ -31,17 +36,21 @@ class angkot extends mobil{
 class bus extends mobil{
     private DriverBus driverBus;
     private Penumpang[] daftarPenumpang;
-    public Object[] penumpangs;
+
+
+    public bus() {
+
+    }
 
     public bus(DriverBus driverBus) {
         this.driverBus = driverBus;
-        this.daftarPenumpang = new Penumpang[5];
       }
 
-      public bus() {
-	}
+      public bus(Penumpang[] daftarPenumpan) {
+        this.daftarPenumpang = new Penumpang[5];
+      }
     
-    public DriverBus getDriverBus() {
+      public DriverBus getDriverBus() {
         return driverBus;
       }
 
@@ -50,8 +59,8 @@ class bus extends mobil{
       }
 
       public void getPenumpang() {
-        for (int i = 0; i< penumpangs.length; i++){
-            System.out.println(penumpangs[i]);
+        for (int i = 0; i< daftarPenumpang.length; i++){
+            System.out.println("Nama penumpang bus adalah = " + daftarPenumpang[i]);
         }
     }
 }
@@ -59,8 +68,8 @@ class bus extends mobil{
 
 class orang{}
 class driverBus extends orang{
-    String nama;
-    boolean simB;
+    public String nama;
+    public boolean simB;
 
     public void setNama(String nama){
         this.nama = nama;
@@ -72,18 +81,16 @@ class driverBus extends orang{
       public boolean isSimB() {
         return simB;
       }
-      public void narikBus(boolean status) {
-        if (status) {
-            System.out.println("Saya sedang menarik bus");
-          } else {
-            System.out.println("Saya berhenti menarik bus");
-          }
-      }
 
 }
 
 class driverAngkot extends orang{
-    private boolean simA;
+    public boolean simA;
+    public String nama;
+
+    public void setNama(String nama){
+      this.nama = nama;
+  }
 
     public driverAngkot() {
         this.simA = true;
@@ -91,20 +98,13 @@ class driverAngkot extends orang{
       public boolean isSimA() {
         return simA;
       }
-      public void narikAngkot(boolean status) {
-        if (status) {
-            System.out.println("Saya sedang menarik angkot");
-          } else {
-            System.out.println("Saya berhenti menarik angkot");
-          }
-      }
 
 }
 
 class penumpang extends orang{
-    private boolean[] naik;
-    private boolean[] turun;
-    private String nama;
+    public boolean[] naik;
+    public boolean[] turun;
+    public String nama;
 
     public penumpang(String nama){
         this.nama = nama;
@@ -120,11 +120,5 @@ class penumpang extends orang{
       public boolean[] getTurun() {
         return turun;
       }
-
-      void Naik(angkot i){
-        System.out.println("Penumpang bernama " + this.nama +" naik angkot");
-    }
-    void Turun(){
-        System.out.println("Penumpang bernama " + this.nama +" turun angkot");
-    }
+      
 }

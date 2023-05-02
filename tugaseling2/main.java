@@ -1,7 +1,8 @@
 package tugaseling2;
 
 public class main {
-    public static void main(String[] args) {
+    public static void main(String[] args, char[] penumpang) {
+        
         
         angkot angkot1 = new angkot();
         angkot1.getPenumpang()[0] = new Penumpang("Arifa");
@@ -11,7 +12,7 @@ public class main {
         angkot1.getPenumpang();
         angkot1.getPenumpang()[0].Naik(angkot1);
         angkot1.getPenumpang()[1].Turun();
-        System.out.println();
+        System.out.println("= " + penumpang);
 
         bus bus1 = new bus();
         bus1.getDaftarPenumpang()[0] = new Penumpang("ipel");

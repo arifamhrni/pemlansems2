@@ -2,6 +2,8 @@ package tugaseling1;
 
 public class robotmain{
     public static void main(String[] args) {
+
+        //memasukkann nilai 
         lingkaran objekLingkaranKepala = new lingkaran(7);
         PersegiPanjang objekPersegiPanjangBadan = new PersegiPanjang(25, 55);
         PersegiPanjang objekPersegiPanjangTanganKiri = new PersegiPanjang(20, 10);
