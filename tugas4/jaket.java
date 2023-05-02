@@ -1,7 +1,7 @@
 //Arifa Maharani Salsabil
 //225150701111034
 // TI-E
-package tugas5;
+package tugas4;
 
 public class jaket {
     public static int perjumlahan(int a, int b) { //menggunakan static

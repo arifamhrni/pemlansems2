@@ -2,7 +2,7 @@
 //225150701111034
 //TI-E
 
-package tugas5;
+package tugas4;
 
 import java.util.Scanner;
 
