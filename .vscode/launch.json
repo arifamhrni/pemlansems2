@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "mainbook",
+            "request": "launch",
+            "mainClass": "tugas1.mainbook",
+            "projectName": "semsduwa_baeff34b"
+        },
+        {
+            "type": "java",
+            "name": "bookmain",
+            "request": "launch",
+            "mainClass": "tugas2.bookmain",
+            "projectName": "semsduwa_baeff34b"
+        },
+        {
+            "type": "java",
+            "name": "heromain",
+            "request": "launch",
+            "mainClass": "tugas3.heromain",
+            "projectName": "semsduwa_baeff34b"
+        },
+        {
+            "type": "java",
+            "name": "mainjaket",
+            "request": "launch",
+            "mainClass": "tugas4.mainjaket",
+            "projectName": "semsduwa_baeff34b"
+        },
+        {
+            "type": "java",
+            "name": "robotmain",
+            "request": "launch",
+            "mainClass": "tugaseling1.robotmain",
+            "projectName": "semsduwa_baeff34b"
+        }
+    ]
+}
