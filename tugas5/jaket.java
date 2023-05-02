@@ -1,3 +1,6 @@
+//Arifa Maharani Salsabil
+//225150701111034
+
 package tugas5;
 
 public class jaket {
@@ -15,15 +18,5 @@ public class jaket {
 
     public double pembagan(double a, double b) { //tidak menggunakan static
         return a / b;
-    }
-
-    public void Sederhana(int a, int b) {
-        int fpb = 1;
-        for (int i = 1; i <= a && i <= b; i++) {
-            if (a % i == 0 && b % i == 0) {
-                fpb = i;
-            }
-        }
-        System.out.println((a / fpb) + "/" + (b / fpb));
     }
 }

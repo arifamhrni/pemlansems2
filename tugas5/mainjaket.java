@@ -1,3 +1,6 @@
+//Arifa Maharani Salsabil
+//225150701111034
+
 package tugas5;
 
 import java.util.Scanner;
