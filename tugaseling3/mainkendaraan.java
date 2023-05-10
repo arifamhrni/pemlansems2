@@ -1,5 +1,5 @@
 package tugaseling3;
-//arifa
+
 import java.util.*;
 
 public class mainkendaraan {
