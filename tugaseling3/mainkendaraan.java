@@ -44,14 +44,14 @@ public class mainkendaraan {
         // Tambahkan penumpang ke antrian angkot dan bus
         antrianAngkot.add("Rhea");
         antrianAngkot.add("Sabrina");
-        antrianAngkot.add("Faira");
+        antrianAngkot.add("Arifa");
         antrianAngkot.add("Dwi");
         antrianAngkot.add("Asung");
         antrianBus.add("Pipit");
         antrianBus.add("Pipin");
-        antrianBus.add("Masmerah");
-        antrianBus.add("Mashejo");
-        antrianBus.add("manusia aneh");
+        antrianBus.add("Faira");
+        antrianBus.add("Kacep");
+        antrianBus.add("Mas aa");
 
         // Tampilkan antrian penumpang angkot dan bus
         System.out.println("\nAntrian Penumpang:");
