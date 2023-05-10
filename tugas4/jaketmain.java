@@ -6,7 +6,7 @@ public class jaketmain {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        System.out.print("Pilih jaket A, B, atau C: ");
+        System.out.print("Pilih jaket A, B, atau C (masukkan huruf kapital): ");
         String jenis = scanner.nextLine().toUpperCase();
         
         System.out.print("Masukkan jumlah jaket yang dibeli: ");

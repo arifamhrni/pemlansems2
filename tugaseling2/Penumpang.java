@@ -16,4 +16,8 @@ public class Penumpang {
     public void Naik(bus bus1) {
     }
 
+    public String getNama() {
+        return null;
+    }
+
 }
