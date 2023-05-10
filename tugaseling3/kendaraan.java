@@ -1,4 +1,5 @@
 package tugaseling3;
+//arifa
 
 public class kendaraan {
     private String jenis;
