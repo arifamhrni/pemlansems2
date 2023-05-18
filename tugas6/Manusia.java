@@ -1,6 +1,3 @@
-//Arifa Maharani Salsabil\
-//225150701111034
-
 package tugas6;
 import java.time.LocalDate;
 
@@ -17,7 +14,7 @@ public class Manusia {
         this.menikah = menikah;
     }
 
-    // Getter dan Setter
+    // Getter setter
     public String getNama() {
         return nama;
     }
@@ -42,7 +39,7 @@ public class Manusia {
         this.nik = nik;
     }
 
-    public boolean isMenikah() {
+    public boolean Menikah() {
         return menikah;
     }
 
@@ -213,6 +210,7 @@ class Pekerja extends Manusia {
                 "Gaji: $" + gaji;
     }
 }
+
 class Manager extends Pekerja {
     private String departemen;
 
