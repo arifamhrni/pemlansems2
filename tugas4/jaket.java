@@ -28,7 +28,7 @@ public class jaket {
         this.jumlah = jumlah;
     }
 
-    public stati int getHarga() {
+    public static int getHarga() {
         int harga = 0;
         switch (jenis) {
             case "A":
