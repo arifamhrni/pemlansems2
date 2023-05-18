@@ -64,7 +64,7 @@ public class Main {
 
         // Manager
         System.out.println("========================");
-        Manager manager1 = new Manager("Arifa", true, "1234567890", true, 7500.0, LocalDate.of(2008, 1, 1), 3, "IT");
+        Manager manager1 = new Manager("Arifa", false, "1234567890", true, 7500.0, LocalDate.of(2008, 1, 1), 3, "IT");
         System.out.println("Manager (15 tahun):");
         System.out.println(manager1);
         System.out.println("========================");

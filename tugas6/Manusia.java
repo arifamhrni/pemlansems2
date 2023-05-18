@@ -80,8 +80,7 @@ class MahasiswaFILKOM extends Manusia {
         this.nim = nim;
         this.ipk = ipk;
     }
-
-    // Getter dan Setter
+    
     public String getNim() {
         return nim;
     }
