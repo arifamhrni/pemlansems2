@@ -38,6 +38,6 @@ class KueJadi extends Kue {
     }
 
     public double hitungHarga() {
-        return harga * jumlah * 2;
+        return harga * jumlah;
     }
 }

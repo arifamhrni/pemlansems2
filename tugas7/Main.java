@@ -35,7 +35,8 @@ public class Main {
                 totalHarga += kue.hitungHarga();
             }
         }
-        System.out.println("Total Harga Semua Kue: Rp" + totalHarga);
+        System.out.println("==============================================");
+        System.out.println("1. Total Harga Semua Kue: Rp" + totalHarga);
 
         // Hitung total harga dan total berat dari KuePesanan
         double totalHargaKuePesanan = 0.0;
@@ -46,8 +47,8 @@ public class Main {
                 totalBerat += ((KuePesanan) kue).berat;
             }
         }
-        System.out.println("Total Harga Kue Pesanan: Rp" + totalHargaKuePesanan);
-        System.out.println("Total Berat Kue Pesanan: " + totalBerat + " kg");
+        System.out.println("2. Total Harga Kue Pesanan : Rp" + totalHargaKuePesanan);
+        System.out.println("3. Total Berat Kue Pesanan : " + totalBerat + " kg");
 
         // Hitung total harga dan total jumlah dari KueJadi
         double totalHargaKueJadi = 0.0;
@@ -58,8 +59,8 @@ public class Main {
                 totalJumlah += ((KueJadi) kue).jumlah;
             }
         }
-        System.out.println("Total Harga Kue Jadi: Rp" + totalHargaKueJadi);
-        System.out.println("Total Jumlah Kue Jadi: " + totalJumlah);
+        System.out.println("4. Total Harga Kue Jadi : Rp" + totalHargaKueJadi);
+        System.out.println("5. Total Jumlah Kue Jadi : " + totalJumlah);
 
         // Tampilkan informasi kue dengan harga terbesar
         double hargaTerbesar = 0.0;
@@ -71,8 +72,9 @@ public class Main {
             }
         }
         if (kueHargaTerbesar != null) {
-            System.out.println("Kue dengan Harga Terbesar:");
+            System.out.println("\nINFORMASI KUE DENGAN HARGA TERBESAR");
             System.out.println(kueHargaTerbesar.toString());
+            System.out.println("==============================================");
         }
     }
 }
