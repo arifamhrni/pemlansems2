@@ -11,8 +11,8 @@ abstract class Kue {
 
     public abstract double hitungHarga();
 
-    public String toString() {
-        return "Kue: " + nama + "\nHarga: Rp" + hitungHarga();
+    public String tampilanHargaTerbesar() {
+        return "1. Harga terbesar yaitu " + nama + "\n2. Harga kue terbesar: Rp" + hitungHarga();
     }
 }
 

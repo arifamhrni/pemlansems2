@@ -73,7 +73,7 @@ public class Main {
         }
         if (kueHargaTerbesar != null) {
             System.out.println("\nINFORMASI KUE DENGAN HARGA TERBESAR");
-            System.out.println(kueHargaTerbesar.toString());
+            System.out.println(kueHargaTerbesar.tampilanHargaTerbesar());
             System.out.println("==============================================");
         }
     }
