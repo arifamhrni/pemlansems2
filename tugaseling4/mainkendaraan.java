@@ -8,8 +8,8 @@ class mainkendaraan {
         kendaraan bus = new kendaraan("Bus", 20);
 
         // Tambahkan penumpang ke angkot dan bus
-        angkot.tambahPenumpang(8);
-        bus.tambahPenumpang(10);
+        angkot.tambahPenumpang(5);
+        bus.tambahPenumpang(5);
 
         // Buat vector untuk daftar kendaraan
         Vector<kendaraan> daftarKendaraan = new Vector<kendaraan>();
