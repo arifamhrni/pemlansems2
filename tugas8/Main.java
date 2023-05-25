@@ -9,7 +9,7 @@ public class Main {
 
         Employee employee = new Employee(11035, "Asung", 10000000, invoices);
         
-        System.out.println("INFORMASI KARYAWAN");
+        System.out.println("INFORMASI KARYAWAN 1");
         System.out.println("Nomor Karyawan: " + employee.getRegistrationNumber());
         System.out.println("Nama : " + employee.getName());
         System.out.println("Gaji per bulan: " + "Rp." + employee.getSalaryPerMonth());
@@ -36,7 +36,7 @@ public class Main {
 
         Employee employee1 = new Employee(11033, "Rhea", 10000000, invoicesA);
 
-        System.out.println("INFORMASI KARYAWAN");
+        System.out.println("INFORMASI KARYAWAN  2");
         System.out.println("Nomor Karyawan: " + employee1.getRegistrationNumber());
         System.out.println("Nama : " + employee1.getName());
         System.out.println("Gaji per bulan: " + "Rp." + employee1.getSalaryPerMonth());
